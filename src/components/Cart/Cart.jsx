@@ -3,14 +3,14 @@ import React from 'react';
 const Cart = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6x mx-auto">
         <h1 className="text-4xl font-black text-gray-900 mb-10 tracking-tight">Shopping Bag</h1>
 
         <div className="flex flex-col lg:flex-row gap-10">
           {/* --- Items List --- */}
           <div className="flex-grow space-y-6">
-            {[1, 2].map((item) => (
-              <div key={item} className="group relative flex flex-col sm:flex-row items-center gap-6 bg-white p-6 rounded-3xl shadow-sm border border-gray-100 transition-all hover:shadow-md">
+            {[1, 2, 3, 4].map((item) => (
+              <div key={item} className="group relative flex flex-col sm:flex-row items-center gap-6 bg-gray-500 p-6 rounded-3xl shadow-sm border border-gray-100 transition-all hover:shadow-md">
                 <div className="h-32 w-32 bg-gray-100 rounded-2xl overflow-hidden flex-shrink-0">
                   <img 
                     src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop" 
